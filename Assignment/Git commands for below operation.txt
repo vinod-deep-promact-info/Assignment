@@ -1,0 +1,21 @@
+Git commands for below operation
+
+git init - Command to initialize git repository
+git clone <url> - Command to clone remote repository
+git add . , git add -a , git add --all - Command to stage all changes
+git status - Command to view state of working directory and staging area
+git branch <branchname> ,git checkout -b <branchname> - Command to create new branch
+git checkout <branchname> ,git switch <branchname> - Command to change branch
+git reset HEAD - Command to clean staging area
+
+git fetch origin <remotebranch>- Command to get commits and changes from remote branch (It should not merge changes in current branch).
+
+git pull origin <remotebranch> - Command to get commits and changes from remote branch (It should merge changes in current branch).
+
+git cherry-pick 092018283103810930 - Command to cherry pick commit which SHA => 092018283103810930
+
+git push origin <branchname> - Command to push branch
+
+git push origin --delete <remotebranch>- Command to delete remote branch
+
+git rebase -i HEAD~1 - Command to do iterative rebase
